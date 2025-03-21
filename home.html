@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            font-size: 22px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        #header{
+            height: 100px;
+            background-color: blueviolet;
+        }
+
+        #logo
+        {
+          
+            width:40%;
+            float:left;
+        }
+        #logo img{
+            margin-left: 5px;
+            margin-top: 5px;
+            height:80px;
+            width:200px;
+        }
+        #menu
+        {
+           
+            width:60%;
+            float: right;
+        }
+       #menu ul 
+       {
+        display: inline;
+       }
+       #menu ul li
+       {
+        display: inline-block;
+        margin-left: 20px;
+       }
+       #menu ul li a{
+        color:white;
+        font-size: large;
+        text-decoration: none;
+       }
+       #menu ul li a:hover{
+        color:red;
+       }
+        #footer{
+            height: 200px;
+            background-color: blueviolet;
+        }
+
+        #middle
+        {
+            height: 400px;
+        }
+       #middle .partition
+        {
+            width:50%;
+            float:left;
+            background-color: gray;
+            height: 100%;
+        }
+
+        #footer .footerpart
+        {
+           width:32%;
+           margin-left: 15px;
+           float:left;
+           height: 100%; 
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header Start -->
+    <div id="header">
+         <div id="logo">
+             <img src="images/logo.png" />
+         </div>
+         <div id="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+         </div>
+    </div>
+    <!-- Header END -->
+      <!-- Middle Start -->
+    <div id="middle">
+        <div class="partition">
+             <h2>About us</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui delectus blanditiis corrupti odit ducimus doloremque architecto necessitatibus quod repellat deleniti? Enim, quas fugiat animi consequatur dolores error deleniti repudiandae nisi voluptatem reiciendis nostrum atque eum, quam harum consequuntur. Veritatis doloribus non assumenda fugit a quam nobis recusandae, illo ratione rem.</p>
+        </div>
+        <div class="partition">
+           <h3>Our Products</h3>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa suscipit amet cupiditate. Aliquam dolor ipsam eligendi beatae odit odio quia.</p>
+        </div>
+    </div>
+     <!-- Middle End -->
+
+      <!--Footer Start -->
+    <div id="footer">
+        <div class="footerpart">
+            <h4>Main Menu</h4>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footerpart">
+            <h4>Other Menu</h4>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footerpart">
+            <h4>Social Media</h4>
+        </div>
+    </div>
+     <!-- Footer End -->
+</body>
+</html>
